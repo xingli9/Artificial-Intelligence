@@ -5,17 +5,6 @@ import java.util.*;
 // Solving the 16-puzzle with A* using two heuristics:
 // tiles-out-of-place and total-distance-to-move
 /*
- * Name: Xing Li
- * The time difference is: 0.007080309000000001 second(using tiles-displaced heruistic)
- * The time difference is: 0.017871556 second(using Manhattan heruistic)
- * The time difference is: 0.027796419000000003 second(using Euclidean distance heruistic)
- * 
- * Answer:
- * It still work using Euclidean distance  as the heruistic, but the efficiency will be worse then 
- * Manhattan and Tiles-displaced as the heruistic. The speed rank from high to low is Tiles-displaced, 
- * Manhattan, and Euclidean. The blank can only move straight-line, and the goal of the game is 
- * put right number into the right place. So, the Tiles-displaced most represent the respect distance 
- * to the destination, and Euclidean distance is the worst.
  * 
  * 
  */
